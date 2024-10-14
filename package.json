@@ -16,9 +16,5 @@
   ],
   "author": "acsandmann",
   "license": "GPL-3.0-or-later",
-  "type": "module",
-  "devDependencies": {
-    "@asandmann/font": "^0.0.2",
-    "mitata": "^1.0.10"
-  }
+  "type": "module"
 }
