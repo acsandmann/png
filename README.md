@@ -1,9 +1,9 @@
 ### **@asandmann/png**
 
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/%40asandmann%2Fpng)
-![NPM Version](https://img.shields.io/npm/v/%40asandmann%2Fpng?style=flat-square)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/%40asandmann%2Fpng)][npm-url]
+[![NPM Version](https://img.shields.io/npm/v/%40asandmann%2Fpng?style=flat-square)][npm-url]
 
-
+[npm-url]: https://www.npmjs.com/package/@asandmann/png
 
 A zero-depencency, performant, and simple png encoder written in pure javascript.
 
