@@ -34,7 +34,6 @@ Encodes the raw image data into PNG format.
 
 ---
 
-#### **License**
+#### Credits
 
-GNU GENERAL PUBLIC LICENSE
-
+Some ideas taken from [imagescript](https://github.com/matmen/ImageScript/blob/master/png/src/png.mjs) and zlib implementation is from [fflate](https://github.com/101arrowz/fflate)

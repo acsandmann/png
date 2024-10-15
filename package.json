@@ -1,6 +1,6 @@
 {
   "name": "@asandmann/png",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "png encoder in javascript",
   "main": "src/index.js",
   "files": [
@@ -23,5 +23,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/acsandmann/png.git"
+  },
+  "devDependencies": {
+    "fflate": "^0.8.2",
+    "imagescript": "^1.3.0"
   }
 }

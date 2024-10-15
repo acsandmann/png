@@ -45,7 +45,7 @@ const [
 
 // raw CRC function
 // stream by passing in previous CRC output as second parameter
-const rawCRC = (d, c) => {
+export const crc32 = (d, c) => {
     // when second param not specified, defaults to ~0 = -1
     c = ~c;
     let i = 0;
@@ -72,5 +72,3 @@ const rawCRC = (d, c) => {
     while (i !== d.length) c = t1[(c & 255) ^ d[i++]] ^ (c >>> 8);
     return ~c;
 }
-
-export { rawCRC as crc32 };
